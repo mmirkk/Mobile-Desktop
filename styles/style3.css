@@ -1,0 +1,69 @@
+.contacto{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.form-contacto{
+    width: 316px;
+    background-color: var(--surface-2);
+    border-radius: 8px;
+    padding: 16px;
+    border: 1px solid #333333;
+}
+
+.ingreso{
+    width: 316px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #333333;
+    background-color: var(--surface);
+    color: white;
+    box-sizing: border-box;
+}
+
+.boton-enviar{
+    width: 100%;
+    background: var(--primary);
+    background-image: linear-gradient(45deg, var(--primary), var(--primary-soft));
+    color: white;
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.info-adicional{
+    display: flex;
+    flex-direction: column;
+
+    width: 318px;
+    background-color: var(--surface-2);
+
+    margin-top: 30px;
+
+    border-radius: 6px;
+    padding: 16px;
+}
+.info-adicional>h4{
+    padding: 0px;
+}
+
+.mapa{
+    padding: 10px;
+    height: 150px;
+    background: var(--surface-2);
+    margin-top: 24px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333333;
+}

@@ -1,0 +1,123 @@
+.marketing{
+    display: flex;
+    height: 120px;
+    width: 350px;
+    background-image: linear-gradient(45deg, var(--primary), var(--primary-soft));
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.title{
+    font-size: large;
+}
+
+.p{
+    margin: 0;
+    padding-top: 20px;
+    width: 350px;
+    text-align: left;
+}
+
+.beneficios{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.beneficio{
+    display: flex;
+    height: 20px;
+    width: 318px;
+    background-color: var(--surface-2);
+
+    justify-items: center;
+    justify-content: flex-start;
+    align-self: center;
+    text-align: left;
+    padding: 16px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+.textobeneficio{
+    color: white;
+}
+
+.nuestroequipo{
+    width: 350px;
+    text-align: start;
+}
+
+.personas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.miembro{
+    width: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    margin-inline-end: 20px;
+}
+
+.profile{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #444444;
+    margin: 0 auto;
+    border: 2px solid var(--primary-soft);
+}
+
+.tecnologias{
+    width: 350px;
+    text-align: start;
+}
+
+.tecnologias-contenedor{
+    display: flex;
+    height: 64px;
+    width: 350px;
+    padding: 6px;
+    margin-top: 3px;
+
+    justify-content: flex-start;
+    border-radius: 6px;
+    gap: 8px;
+}
+
+.tecnologias-contenido{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: var(--surface-2);
+
+    font-size: smaller;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #A0A0A0;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.solicitar{
+    margin: 6px;
+    border: 0px;
+    background-image: linear-gradient(45deg, var(--primary), var(--primary-soft));
+    width: 130px;
+    height: 33px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: white;
+    margin-top: 16px;
+}

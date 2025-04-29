@@ -1,0 +1,13 @@
+@import url("style.css");
+@import url("style2.css");
+@import url("style3.css");
+:root{
+    --primary: #6D28D9;
+    --primary-soft: #8B5CF6;
+    --secondary: #10B981;
+    --accent: #F59E0B;
+    --bg: #121212;
+    --surface: #1E1E1E;
+    --surface-2: #2D2D2D;
+}
+

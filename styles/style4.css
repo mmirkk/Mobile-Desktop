@@ -1,0 +1,58 @@
+.header-web{
+    padding: 16px;
+}
+
+.desktop-nav-web{
+    width: 94%;
+    background: var(--surface-2);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    border: 1px solid #333333;
+}
+
+.hero-web{
+    width: 70vw;
+    height: 150px;
+    background-color: #10B981;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.doscolumnas{
+    display: flex;
+    gap: 30px;
+}
+
+.personas-web{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.cards-web{
+    display: flex;
+    gap: 32px;
+    margin: 15px 0;
+}
+
+.service-card{
+    background: var(--surface-2);
+    width: 100px;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #333333;
+}
+
+.left{
+    margin-left: 15vw;
+}
